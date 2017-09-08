@@ -21,6 +21,6 @@
     
     "content_scripts": [{
         "matches": ["http://*/*","https://*/*"],
-        "js": ["content_script.js"]
+        "js": ["content_script.js","jquery-3.2.1.min.js","index.js","bililiteRange.js"]
     }]
 }
